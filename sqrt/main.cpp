@@ -11,16 +11,17 @@ int main()
         cout << "Введи то число, из которого надо найти квадратный корень:" << endl;
         cin >> sq_rt;
 
-        /*if (!cin)
+        /*
+        if (!cin)
         {
             cout << "Input Error!" << endl;
             cin.clear();
             fflush(stdin);
         }
-
         */
 
-        /*if (typeid(string) == typeid(sq_rt))
+        /*
+        if (typeid(string) == typeid(sq_rt))
         {
             cout << "Не верен ввод" << endl;
         }
