@@ -3,8 +3,8 @@
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    int sq_rt;
-    int uend;
+    int sq_rt = 0;
+    int uend = 0;
     do
     {
         cout << "Введи то число, из которого надо найти квадратный корень:" << endl;
